@@ -3,7 +3,7 @@ import axios from "axios";
 // 创建axios实例
 const Http = axios.create({
   timeout: 1000 * 60 * 3,
-  baseURL: `xxxxx/`,
+  baseURL: `${import.meta.env.VITE_APP_API_HOST}/`,
 });
 
 Http.interceptors.request.use(
