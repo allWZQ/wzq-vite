@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite --host 0.0.0.0 --port 9000",
+    "build": "vue-tsc && vite build"
   },
   "dependencies": {
     "ant-design-vue": "^4.0.0-rc.4",
