@@ -1,5 +1,5 @@
-import Home from "./router/home/index.vue";
-import Login from "./router/login/index.vue";
+import Home from "@/router/home/index.vue";
+import Login from "@/router/login/index.vue";
 
 export const paths = {
   home: "/",

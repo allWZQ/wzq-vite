@@ -2,6 +2,7 @@
 
 <template>
   <h1>我是首页</h1>
+  <img src="@/assets/images/vue.svg" />
 </template>
 
 <style lang="scss" scoped>
