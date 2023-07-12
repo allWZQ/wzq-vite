@@ -4,4 +4,8 @@
   <h1>我是首页</h1>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+h1 {
+  color: $primary-color;
+}
+</style>
