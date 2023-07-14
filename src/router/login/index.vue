@@ -2,10 +2,13 @@
 import { useRouter } from "vue-router";
 import { Button } from "ant-design-vue";
 import { paths } from "../../router.config";
+import { useUserStore } from "../../stores/user";
 const router = useRouter();
+const userStore = useUserStore();
 
 const gotoLogin = () => {
   router.push(paths.home);
+  userStore.setIsLogin(true);
 };
 </script>
 
